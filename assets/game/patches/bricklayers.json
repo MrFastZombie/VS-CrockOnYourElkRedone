@@ -1,0 +1,69 @@
+[
+    {
+        "file": "bricklayers:blocktypes/clay/crockcolored.json",
+        "op": "addmerge",
+        "path": "/attributesByType/@crockcolored-burned-(lavender|paleblue|palegreen|palered|peach|sunflower|white)/attachableToEntity",
+        "value": {
+            "categoryCode": "crock",
+            "texturePrefixCode": "crock-{color}"
+        },
+        "dependsOn": [{"modid": "bricklayers"}]
+    },
+    {
+        "file": "bricklayers:blocktypes/clay/crockcolored.json",
+        "op": "addmerge",
+        "path": "/attributesByType/@crockcolored-burned-(lavender|paleblue|palegreen|palered|peach|sunflower|white)/attachableToEntity/attachedShapeBySlotCode",
+        "value": {
+            "frontrightside": { "base": "game:item/wearable/hooved/crockr-elk" },
+            "frontleftside": { "base": "game:item/wearable/hooved/crockl-elk" }
+        },
+        "dependsOn": [{"modid": "bricklayers"}]
+    },
+    {
+        "file": "bricklayers:blocktypes/clay/crockcolored.json",
+        "op": "addmerge",
+        "path": "/attributesByType/crockcolored-burned-*/attachableToEntity",
+        "value": {
+            "categoryCode": "crock",
+            "texturePrefixCode": "crock-{color}"
+        },
+        "dependsOn": [{"modid": "bricklayers"}]
+    },
+    {
+        "file": "bricklayers:blocktypes/clay/crockcolored.json",
+        "op": "addmerge",
+        "path": "/attributesByType/crockcolored-burned-*/attachableToEntity/attachedShapeBySlotCode",
+        "value": {
+            "frontrightside": { "base": "game:item/wearable/hooved/crockr-elk" },
+            "frontleftside": { "base": "game:item/wearable/hooved/crockl-elk" }
+        },
+        "dependsOn": [{"modid": "bricklayers"}]
+    },
+    {
+        "file": "bricklayers:blocktypes/clay/crockcolored.json",
+        "op": "addmerge",
+        "path": "/texturesByType/@crockcolored-burned-(lavender|paleblue|palegreen|palered|peach|sunflower|white)",
+        "value": {
+            "ceramicbaked": { "base": "bricklayers:block/clay/burnt/{color}", "overlays": [ "bricklayers:block/clay/burnt/overlay_crock_porcelain" ] }
+        },
+        "dependsOn": [{"modid": "bricklayers"}]
+    },
+    {
+        "file": "bricklayers:blocktypes/clay/crockcolored.json",
+        "op": "addmerge",
+        "path": "/texturesByType/*-raw-*",
+        "value": {
+            "ceramicbaked": { "base": "bricklayers:block/clay/burnt/{color}", "overlays": [ "bricklayers:block/clay/burnt/overlay_crock_porcelain" ] }
+        },
+        "dependsOn": [{"modid": "bricklayers"}]
+    },
+    {
+        "file": "bricklayers:blocktypes/clay/crockcolored.json",
+        "op": "addmerge",
+        "path": "/texturesByType/*",
+        "value": {
+            "ceramicbaked": { "base": "bricklayers:block/clay/burnt/{color}", "overlays": [ "bricklayers:block/clay/burnt/overlay_crock_porcelain" ] }
+        },
+        "dependsOn": [{"modid": "bricklayers"}]
+    }
+]
