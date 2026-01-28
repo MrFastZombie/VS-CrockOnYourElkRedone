@@ -14,8 +14,8 @@
         "op": "addmerge",
         "path": "/attributesByType/@crockcolored-burned-(lavender|paleblue|palegreen|palered|peach|sunflower|white)/attachableToEntity/attachedShapeBySlotCode",
         "value": {
-            "frontrightside": { "base": "game:item/wearable/hooved/crockr-elk" },
-            "frontleftside": { "base": "game:item/wearable/hooved/crockl-elk" }
+            "frontrightside": { "base": "crocksonelkredone:item/wearable/hooved/crockr-elk" },
+            "frontleftside": { "base": "crocksonelkredone:item/wearable/hooved/crockl-elk" }
         },
         "dependsOn": [{"modid": "bricklayers"}]
     },
@@ -34,8 +34,8 @@
         "op": "addmerge",
         "path": "/attributesByType/crockcolored-burned-*/attachableToEntity/attachedShapeBySlotCode",
         "value": {
-            "frontrightside": { "base": "game:item/wearable/hooved/crockr-elk" },
-            "frontleftside": { "base": "game:item/wearable/hooved/crockl-elk" }
+            "frontrightside": { "base": "crocksonelkredone:item/wearable/hooved/crockr-elk" },
+            "frontleftside": { "base": "crocksonelkredone:item/wearable/hooved/crockl-elk" }
         },
         "dependsOn": [{"modid": "bricklayers"}]
     },
