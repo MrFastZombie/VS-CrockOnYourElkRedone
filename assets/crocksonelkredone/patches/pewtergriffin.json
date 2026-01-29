@@ -7,7 +7,8 @@
             "categoryCode": "crock",
             "texturePrefixCode": "pewter-{metal}-{side}"
         },
-        "dependsOn": [{"modid": "pewter"}]
+        "dependsOn": [{"modid": "pewter"}],
+        "side": "server"
     },
     {
         "file": "pewter:blocktypes/metal/crock.json",
@@ -17,7 +18,8 @@
             "frontrightside": { "base": "crocksonelkredone:item/wearable/hooved/crockr-elk-pewter" },
             "frontleftside": { "base": "crocksonelkredone:item/wearable/hooved/crockl-elk-pewter" }
         },
-        "dependsOn": [{"modid": "pewter"}]
+        "dependsOn": [{"modid": "pewter"}],
+        "side": "server"
     },
     {
         "file": "pewter:blocktypes/metal/crock.json",
@@ -33,7 +35,8 @@
                 }
             }
         },
-        "dependsOn": [{"modid": "pewter"}, {"modid": "pagoldsilver"}]
+        "dependsOn": [{"modid": "pewter"}, {"modid": "pagoldsilver"}],
+        "side": "server"
     },
     {
         "file": "pewter:blocktypes/metal/crock.json",
@@ -49,7 +52,8 @@
                 }
             }
         },
-        "dependsOn": [{"modid": "pewter"}, {"modid": "pagoldsilver"}]
+        "dependsOn": [{"modid": "pewter"}, {"modid": "pagoldsilver"}],
+        "side": "server"
     },
     {
         "file": "pewter:blocktypes/metal/crock.json",
@@ -65,7 +69,8 @@
                 }
             }
         },
-        "dependsOn": [{"modid": "pewter"}, {"modid": "paelectrum"}]
+        "dependsOn": [{"modid": "pewter"}, {"modid": "paelectrum"}],
+        "side": "server"
     },
     {
         "file": "pewter:blocktypes/metal/crock.json",
@@ -81,7 +86,8 @@
                 }
             }
         },
-        "dependsOn": [{"modid": "pewter"}, {"modid": "pabrass"}]
+        "dependsOn": [{"modid": "pewter"}, {"modid": "pabrass"}],
+        "side": "server"
     },
     {
         "file": "pewter:blocktypes/metal/crock.json",
@@ -97,7 +103,8 @@
                 }
             }
         },
-        "dependsOn": [{"modid": "pewter"}, {"modid": "kmpabismuth"}]
+        "dependsOn": [{"modid": "pewter"}, {"modid": "kmpabismuth"}],
+        "side": "server"
     },
     {
         "file": "pewter:blocktypes/metal/crock.json",
@@ -113,6 +120,7 @@
                 }
             }
         },
-        "dependsOn": [{"modid": "pewter"}, {"modid": "kmpacopper"}]
+        "dependsOn": [{"modid": "pewter"}, {"modid": "kmpacopper"}],
+        "side": "server"
     }
 ]

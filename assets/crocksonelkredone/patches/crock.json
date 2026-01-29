@@ -3,13 +3,15 @@
 		"file": "game:entities/animal/mammal/hooved/elk-tamed.json",
 		"op": "addmerge",
 		"path": "/behaviorConfigs/rideableaccessories/wearableSlots/7/forCategoryCodes/-",
-		"value": "crock"
+		"value": "crock",
+        "side": "server"
 	},
 	{
 		"file": "game:entities/animal/mammal/hooved/elk-tamed.json",
 		"op": "addmerge",
 		"path": "/behaviorConfigs/rideableaccessories/wearableSlots/8/forCategoryCodes/-",
-		"value": "crock"
+		"value": "crock",
+        "side": "server"
 	},
     {
         "file": "game:blocktypes/clay/fired/crock.json",
@@ -17,7 +19,8 @@
         "path": "/textures",
         "value": {
             "crock-overlay": {"base": "block/clay/overlay/crock"}
-        }
+        },
+        "side": "server"
     },
     {
         "file": "game:blocktypes/clay/fired/crock.json",
@@ -26,7 +29,8 @@
         "value": {
             "categoryCode": "crock",
             "texturePrefixCode": "crock-{color}"
-        }
+        },
+        "side": "server"
     },
     {
         "file": "game:blocktypes/clay/fired/crock.json",
@@ -35,6 +39,7 @@
         "value": {
             "frontrightside": { "base": "crocksonelkredone:item/wearable/hooved/crockr-elk" },
             "frontleftside": { "base": "crocksonelkredone:item/wearable/hooved/crockl-elk" }
-        }
+        },
+        "side": "server"
     }
 ]

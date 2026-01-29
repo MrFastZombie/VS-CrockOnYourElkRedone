@@ -7,7 +7,8 @@
             "categoryCode": "crock",
             "texturePrefixCode": "crock-{color}"
         },
-        "dependsOn": [{"modid": "bricklayers"}]
+        "dependsOn": [{"modid": "bricklayers"}],
+        "side": "server"
     },
     {
         "file": "bricklayers:blocktypes/clay/crockcolored.json",
@@ -17,7 +18,8 @@
             "frontrightside": { "base": "crocksonelkredone:item/wearable/hooved/crockr-elk" },
             "frontleftside": { "base": "crocksonelkredone:item/wearable/hooved/crockl-elk" }
         },
-        "dependsOn": [{"modid": "bricklayers"}]
+        "dependsOn": [{"modid": "bricklayers"}],
+        "side": "server"
     },
     {
         "file": "bricklayers:blocktypes/clay/crockcolored.json",
@@ -27,7 +29,8 @@
             "categoryCode": "crock",
             "texturePrefixCode": "crock-{color}"
         },
-        "dependsOn": [{"modid": "bricklayers"}]
+        "dependsOn": [{"modid": "bricklayers"}],
+        "side": "server"
     },
     {
         "file": "bricklayers:blocktypes/clay/crockcolored.json",
@@ -37,7 +40,8 @@
             "frontrightside": { "base": "crocksonelkredone:item/wearable/hooved/crockr-elk" },
             "frontleftside": { "base": "crocksonelkredone:item/wearable/hooved/crockl-elk" }
         },
-        "dependsOn": [{"modid": "bricklayers"}]
+        "dependsOn": [{"modid": "bricklayers"}],
+        "side": "server"
     },
     {
         "file": "bricklayers:blocktypes/clay/crockcolored.json",
@@ -46,7 +50,8 @@
         "value": {
             "ceramicbaked": { "base": "bricklayers:block/clay/burnt/{color}", "overlays": [ "bricklayers:block/clay/burnt/overlay_crock_porcelain" ] }
         },
-        "dependsOn": [{"modid": "bricklayers"}]
+        "dependsOn": [{"modid": "bricklayers"}],
+        "side": "server"
     },
     {
         "file": "bricklayers:blocktypes/clay/crockcolored.json",
@@ -55,7 +60,8 @@
         "value": {
             "ceramicbaked": { "base": "bricklayers:block/clay/burnt/{color}", "overlays": [ "bricklayers:block/clay/burnt/overlay_crock_porcelain" ] }
         },
-        "dependsOn": [{"modid": "bricklayers"}]
+        "dependsOn": [{"modid": "bricklayers"}],
+        "side": "server"
     },
     {
         "file": "bricklayers:blocktypes/clay/crockcolored.json",
@@ -64,6 +70,7 @@
         "value": {
             "ceramicbaked": { "base": "bricklayers:block/clay/burnt/{color}", "overlays": [ "bricklayers:block/clay/burnt/overlay_crock_porcelain" ] }
         },
-        "dependsOn": [{"modid": "bricklayers"}]
+        "dependsOn": [{"modid": "bricklayers"}],
+        "side": "server"
     }
 ]
