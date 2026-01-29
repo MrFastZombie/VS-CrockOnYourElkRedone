@@ -1,0 +1,32 @@
+[
+    {
+        "file": "clayworks:blocktypes/clay/crock.json",
+        "op": "addmerge",
+        "path": "/attributesByType/*-fired*/attachableToEntity",
+        "value": {
+            "categoryCode": "crock",
+            "texturePrefixCode": "clayworks:crock-{state}-{color}-{side}"
+        },
+        "dependsOn": [{"modid": "clayworks"}]
+    },
+    {
+        "file": "clayworks:blocktypes/clay/crock.json",
+        "op": "addmerge",
+        "path": "/attributesByType/*-fired*/attachableToEntity/attachedShapeBySlotCode",
+        "value": {
+            "frontrightside": { "base": "crocksonelkredone:item/wearable/hooved/crockr-elk-clayworks" },
+            "frontleftside": { "base": "crocksonelkredone:item/wearable/hooved/crockl-elk-clayworks" }
+        },
+        "dependsOn": [{"modid": "clayworks"}]
+    },
+    {
+        "file": "clayworks:blocktypes/clay/crock.json",
+        "op": "addmerge",
+        "path": "/texturesByType/*",
+        "value": {
+            "crock-overlay-color": { "base": "clayworks:block/clay/color/{state}/{color}" },
+            "crock-overlay": { "base": "clayworks:block/clay/overlay/crock" }
+        },
+        "dependsOn": [{"modid": "clayworks"}]
+    }
+]
