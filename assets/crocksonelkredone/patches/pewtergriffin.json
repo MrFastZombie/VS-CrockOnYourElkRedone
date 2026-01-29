@@ -1,0 +1,118 @@
+[
+    {
+        "file": "pewter:blocktypes/metal/crock.json",
+        "op": "addmerge",
+        "path": "/attributesByType/crock-pewter-*/attachableToEntity",
+        "value": {
+            "categoryCode": "crock",
+            "texturePrefixCode": "pewter-{metal}-{side}"
+        },
+        "dependsOn": [{"modid": "pewter"}]
+    },
+    {
+        "file": "pewter:blocktypes/metal/crock.json",
+        "op": "addmerge",
+        "path": "/attributesByType/crock-pewter-*/attachableToEntity/attachedShapeBySlotCode",
+        "value": {
+            "frontrightside": { "base": "crocksonelkredone:item/wearable/hooved/crockr-elk-pewter" },
+            "frontleftside": { "base": "crocksonelkredone:item/wearable/hooved/crockl-elk-pewter" }
+        },
+        "dependsOn": [{"modid": "pewter"}]
+    },
+    {
+        "file": "pewter:blocktypes/metal/crock.json",
+        "op": "addmerge",
+        "path": "/attributesByType/crock-silver-*",
+        "value": {
+            "attachableToEntity": {
+                "categoryCode": "crock",
+                "texturePrefixCode": "pewter-{metal}-{side}",
+                "attachedShapeBySlotCode": {
+                    "frontrightside": { "base": "crocksonelkredone:item/wearable/hooved/crockr-elk-pewter" },
+                    "frontleftside": { "base": "crocksonelkredone:item/wearable/hooved/crockl-elk-pewter" }
+                }
+            }
+        },
+        "dependsOn": [{"modid": "pewter"}, {"modid": "pagoldsilver"}]
+    },
+    {
+        "file": "pewter:blocktypes/metal/crock.json",
+        "op": "addmerge",
+        "path": "/attributesByType/crock-gold-*",
+        "value": {
+            "attachableToEntity": {
+                "categoryCode": "crock",
+                "texturePrefixCode": "pewter-{metal}-{side}",
+                "attachedShapeBySlotCode": {
+                    "frontrightside": { "base": "crocksonelkredone:item/wearable/hooved/crockr-elk-pewter" },
+                    "frontleftside": { "base": "crocksonelkredone:item/wearable/hooved/crockl-elk-pewter" }
+                }
+            }
+        },
+        "dependsOn": [{"modid": "pewter"}, {"modid": "pagoldsilver"}]
+    },
+    {
+        "file": "pewter:blocktypes/metal/crock.json",
+        "op": "addmerge",
+        "path": "/attributesByType/crock-electrum-*",
+        "value": {
+            "attachableToEntity": {
+                "categoryCode": "crock",
+                "texturePrefixCode": "pewter-{metal}-{side}",
+                "attachedShapeBySlotCode": {
+                    "frontrightside": { "base": "crocksonelkredone:item/wearable/hooved/crockr-elk-pewter" },
+                    "frontleftside": { "base": "crocksonelkredone:item/wearable/hooved/crockl-elk-pewter" }
+                }
+            }
+        },
+        "dependsOn": [{"modid": "pewter"}, {"modid": "paelectrum"}]
+    },
+    {
+        "file": "pewter:blocktypes/metal/crock.json",
+        "op": "addmerge",
+        "path": "/attributesByType/crock-brass-*",
+        "value": {
+            "attachableToEntity": {
+                "categoryCode": "crock",
+                "texturePrefixCode": "pewter-{metal}-{side}",
+                "attachedShapeBySlotCode": {
+                    "frontrightside": { "base": "crocksonelkredone:item/wearable/hooved/crockr-elk-pewter" },
+                    "frontleftside": { "base": "crocksonelkredone:item/wearable/hooved/crockl-elk-pewter" }
+                }
+            }
+        },
+        "dependsOn": [{"modid": "pewter"}, {"modid": "pabrass"}]
+    },
+    {
+        "file": "pewter:blocktypes/metal/crock.json",
+        "op": "addmerge",
+        "path": "/attributesByType/crock-bismuth-*",
+        "value": {
+            "attachableToEntity": {
+                "categoryCode": "crock",
+                "texturePrefixCode": "pewter-{metal}-{side}",
+                "attachedShapeBySlotCode": {
+                    "frontrightside": { "base": "crocksonelkredone:item/wearable/hooved/crockr-elk-pewter" },
+                    "frontleftside": { "base": "crocksonelkredone:item/wearable/hooved/crockl-elk-pewter" }
+                }
+            }
+        },
+        "dependsOn": [{"modid": "pewter"}, {"modid": "kmpabismuth"}]
+    },
+    {
+        "file": "pewter:blocktypes/metal/crock.json",
+        "op": "addmerge",
+        "path": "/attributesByType/crock-copper-*",
+        "value": {
+            "attachableToEntity": {
+                "categoryCode": "crock",
+                "texturePrefixCode": "pewter-{metal}-{side}",
+                "attachedShapeBySlotCode": {
+                    "frontrightside": { "base": "crocksonelkredone:item/wearable/hooved/crockr-elk-pewter" },
+                    "frontleftside": { "base": "crocksonelkredone:item/wearable/hooved/crockl-elk-pewter" }
+                }
+            }
+        },
+        "dependsOn": [{"modid": "pewter"}, {"modid": "kmpacopper"}]
+    }
+]
