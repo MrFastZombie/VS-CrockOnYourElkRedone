@@ -16,7 +16,7 @@
         "op": "addmerge",
         "path": "/textures",
         "value": {
-            "ceramicbaked": {"base": "crocksonelkredone:block/clay/crockbaked/{color}"}
+            "crock-overlay": {"base": "block/clay/overlay/crock"}
         }
     },
     {
@@ -25,7 +25,7 @@
         "path": "/attributes/attachableToEntity",
         "value": {
             "categoryCode": "crock",
-            "texturePrefixCode": "crock-{color}-{type}"
+            "texturePrefixCode": "crock-{color}"
         }
     },
     {
