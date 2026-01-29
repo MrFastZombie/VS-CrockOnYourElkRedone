@@ -4,7 +4,7 @@
   "name": "Crocks on Your Elk Redone",
   "authors": ["MrFastZombie"],
   "description": "Remake of Iuno's Crocks on Your Elk mod.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "dependencies": {
     "game" : "1.21.0"
   }
