@@ -1,0 +1,22 @@
+[
+    {
+        "file": "metalpots:blocktypes/metalcrock.json",
+        "op": "addmerge",
+        "path": "/attributesByType/metalcrock-*/attachableToEntity",
+        "value": {
+            "categoryCode": "crock",
+            "texturePrefixCode": "metalcrock-{metal}-{side}"
+        },
+        "dependsOn": [{"modid": "metalpots"}]
+    },
+    {
+        "file": "metalpots:blocktypes/metalcrock.json",
+        "op": "addmerge",
+        "path": "/attributesByType/metalcrock-*/attachableToEntity/attachedShapeBySlotCode",
+        "value": {
+            "frontrightside": { "base": "crocksonelkredone:item/wearable/hooved/crockr-elk-metalpots" },
+            "frontleftside": { "base": "crocksonelkredone:item/wearable/hooved/crockl-elk-metalpots" }
+        },
+        "dependsOn": [{"modid": "metalpots"}]
+    }
+]
